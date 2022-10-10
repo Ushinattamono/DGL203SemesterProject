@@ -19,9 +19,7 @@ With this, I would hope that the website would serve to save time and effort spe
 
 In doing this project, the pieces that I plan to complete would have to be done incrementally per week. As the week rotates, I would have to acquire the information and record it to present on the website as it becomes available to collect. Ideally, all of the necessary information would be collected in a month, while I do have a backlog of teams kept in notes for a least 3 months prior to this project beginning.
 
-## Wireframes
-
-and a description of the methods you intend to use to accomplish the project
+## Wireframes and Methods
 
 In this section of the project proposal, I will do an overview about my layout and the methods I intend to use to accomplish them. In the first wireframe pictured below, we have the standard phone interface, and I will cover the labeled parts incrementally.
 
@@ -42,7 +40,7 @@ Blue Labeled Features are non-actionable elements that the user does not interac
 5. Collapsible Menu
     - A hamburger menu that shows when the first red feature is clicked upon.
 
-### Red Labeled Featuers
+### Red Labeled Features
 
 1. Hamburger Menu
     - A hamburger menu that contains an unordered list of links that will populate the second sub-list menu with the appropriately selected stages of the selected week.
@@ -55,6 +53,24 @@ Blue Labeled Features are non-actionable elements that the user does not interac
 5. Page Select
     - Yet another common function of the hamburger menu once opened, you are able to select the desired week to view once you click on it.
 
-
 <img src="epwireframe.png">
+
+### Red Labeled Features
+
+1. Return to Top
+    - At the bottom of the phone page, there is a button to return to the top of the page.
+
 <img src="bwireframe.png">
+
+and a description of the methods you intend to use to accomplish the project
+
+### Features
+
+1. Navigation Bar
+    - Highlighted as the same blue 1 in the phone wireframe, the navigation bar is built on a styled unordered list.
+2. Sub-Navigation Bar
+    - Highlighted as the red 2 in the phone wireframe, this is a second navigation list that the user is able to select the appropriate stage within the week given.
+3. Stage Information
+    - The information is populated with the appropriate images and content from the selected week and stage in the previous navigation.
+4. Footer
+    - Contains a Submit button that opens a form modal to submit a team, and a contact button that opens another modal with contact information.
