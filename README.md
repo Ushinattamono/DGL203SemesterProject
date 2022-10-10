@@ -21,7 +21,15 @@ In doing this project, the pieces that I plan to complete would have to be done 
 
 ## Wireframes
 
+and a description of the methods you intend to use to accomplish the project
 
+In this section of the project proposal, I will do an overview about my layout and the methods I intend to use to accomplish them. In the first wireframe pictured below, we have the standard phone interface, and I will cover the labeled parts incrementally.
 <img src="pwireframe.png">
+
+<style>h3{color:blue;}</style>
+### Blue Labeled Features
+
+
+
 <img src="epwireframe.png">
 <img src="bwireframe.png">
