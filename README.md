@@ -20,3 +20,4 @@ With this, I would hope that the website would serve to save time and effort spe
 In doing this project, the pieces that I plan to complete would have to be done incrementally per week. As the week rotates, I would have to acquire the information and record it to present on the website as it becomes available to collect. Ideally, all of the necessary information would be collected in a month, while I do have a backlog of teams kept in notes for a least 3 months prior to this project beginning.
 
 ## Wireframes
+<img src="phone wireframe.png">
