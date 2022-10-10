@@ -62,8 +62,6 @@ Blue Labeled Features are non-actionable elements that the user does not interac
 
 <img src="bwireframe.png">
 
-and a description of the methods you intend to use to accomplish the project
-
 ### Features
 
 1. Navigation Bar
