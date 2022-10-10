@@ -23,5 +23,5 @@ In doing this project, the pieces that I plan to complete would have to be done 
 
 
 <img src="pwireframe.png">
-<img src="epwirerame.png">
+<img src="epwireframe.png">
 <img src="bwireframe.png">
