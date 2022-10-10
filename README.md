@@ -3,7 +3,9 @@
 ## Overview
 For my Semester Project, I plan to create a website that serves as an archive for teams, information, and compositions implemented in Sdorica's Wonderland Trials; an event that changes weekly to pose different challenges to the player.
 
-To explain briefly, Sdorica as a mobile game has weekly levels dubbed the Wonderland Trials, where there are 36 different levels that are divided into 8 levels per week, over a span of four weeks. These levels have fixed properties and conditions, while additional boons can be implemented per week. The player is limited to using a single team arrangement per stage, where the same team cannot be used concurrently for the remainder of levels; therefore, the goal is for the player to maximize their score total using different arrangements of characters over the span of 8 stages.
+To explain briefly, Sdorica as a mobile game has weekly levels dubbed the Wonderland Trials, where there are 36 different levels that are divided into 8 levels per week, over a span of four weeks. These levels have fixed properties and conditions, while additional boons can be implemented per week.
+
+The player is limited to using a single team arrangement per stage, where the same team cannot be used concurrently for the remainder of levels; therefore, the goal is for the player to maximize their score total using different arrangements of characters over the span of 8 stages.
 
 ## Project Background
 
