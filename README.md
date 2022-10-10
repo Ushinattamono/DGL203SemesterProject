@@ -24,11 +24,36 @@ In doing this project, the pieces that I plan to complete would have to be done 
 and a description of the methods you intend to use to accomplish the project
 
 In this section of the project proposal, I will do an overview about my layout and the methods I intend to use to accomplish them. In the first wireframe pictured below, we have the standard phone interface, and I will cover the labeled parts incrementally.
+
+Blue Labeled Features are non-actionable elements that the user does not interact with, while red features are actionable elements such as buttons and scrolling.
+
 <img src="pwireframe.png">
 
-<style>h3{color:blue;}</style>
 ### Blue Labeled Features
 
+1. Page Title
+    - The page title grabs the class of the current active div, while not strictly a new page, displays the appropriate content of the selected week.
+2. Featured Team
+    - A picture that is shown together with the selected Page Title
+3. Team Use Information
+    - A section within a grid that displays the information of the team within the current active div.
+4. Environmental Information
+    - Similar to the team use, contains all the information not pertaining to the team.
+5. Collapsible Menu
+    - A hamburger menu that shows when the first red feature is clicked upon.
+
+### Red Labeled Featuers
+
+1. Hamburger Menu
+    - A hamburger menu that contains an unordered list of links that will populate the second sub-list menu with the appropriately selected stages of the selected week.
+2. Sub-List Menu
+    - A second hamburger menu that selects the appropriate stage within the week and populates the rest of the content with it.
+3. Scroll Page
+    - Nothing out of the ordinary here, the user is able to scroll the page.
+4. Collapse Menu
+    - Essentially the same as the hamburger menu, the user is able to collapse the menu once it is opened.
+5. Page Select
+    - Yet another common function of the hamburger menu once opened, you are able to select the desired week to view once you click on it.
 
 
 <img src="epwireframe.png">
