@@ -1,0 +1,84 @@
+INSTRUCTIONS: Fill out the following form and upload the form to your GITHub repository. 
+Choose only one of the corresponding numbers in your answer for sections A-F.  
+Answer the questions in section G in sentence form.
+Please total your self-evaluation score at the bottom of the rubric.
+
+A. Code Quality 
+0 - Nothing - No submission
+1 - Below Expectations - Code renders but the code is unreadable 
+2 - Meets Expectations - Good formatting and uses naming conventions but can be improved
+3 - Exceeds Expectations - Code is exceptionally clean and best practices are used
+Your Answer: 2
+
+
+B. Content 
+0 - Nothing - No submission
+1 - Below Expectations - Content not related to assignment or project
+2 - Meets Expectations - Content is related to assignment or project and gets the point across
+3 - Exceeds Expectations - Content is exceptionally detailed and well put together
+Your Answer: 2
+
+
+C. Layout / Organization 
+0 - Nothing - No Submission
+1 - Below Expectations - Long codes with no divisions or random code layout
+2 - Meets Expectations - Code that is modular and divided into section declarations; subprograms
+3 - Exceeds Expectations - Code is exceptionally well organized. 
+Your Answer: 3
+
+
+D. Comments/Commits 
+0 - Nothing - No Submission
+1 - Below Expectations - Excessive, unnecessary, and irrelevant remarks
+2 - Meets Expectations - Comments identify authorship and code's intention
+3 - Exceeds Expectations - Comments and documentation are clear succinct; wizardry points are explained
+Your Answer: 3
+
+
+E. Rendering 
+0 - Nothing - Page does not load or render
+1 - Below Expectations - Page renders, but has errors and/or has apparent design issues
+2 - Meets Expectations - Page renders and produces no errors
+3 - Exceeds Expectations - Page renders and displays properly for multiple screen sizes and browsers 
+Your Answer: 2
+
+F. Process
+0 - Nothing - Project not attempted
+1 - Below Expectations - code and documents not added to repository at correct times
+2 - Meets Expectations - code published as website, milestones met
+3 - Exceeds Expectations - all milestones accomplished, submissions organized, instructions carefully followed, steps thoroughly documented
+Your Answer: 2
+
+G. Self Evaluation Questions (half point each):
+
+1. How much time did you spend on this assignment/project?
+
+I believe I spent a cumulative 8 hours on this assignment. Much of it was on the first 1-7 pieces of content, where I am most confident of the work that I have done,
+however I do feel as if I drifted off as the work continued on.
+
+2. How difficult did you feel this project was? Easy, moderate, difficult?
+
+It was a moderate assignment. Since the objectives are the assignment are significantly self-judged, I had difficulty wondering when the work I had done was good enough
+or otherwise meeting expectations. As I mention in the following question, the most difficult part of the assignment is attempting to build the skeleton of the project
+without using CSS to know how it would completely affect the layout. I did implement sections and additional semantics where I thought they would be needed, but I'm sure
+there are parts that I've missed.
+
+3. What challenges did you come across while working on this project?
+
+The largest challenge for this project was myself. Recently, I've found myself having an utter lack of motivation and urgency this week and the week prior. I feel as if
+rather than any particular challenge that this project offers, the biggest detriment to my work is myself. While I feel as if I should be concerned about how this will
+impact my performance for the remainder of the semester, I at the same time do not feel as if it's as large a concern as it should be.
+
+This may not be the sort of answer this question was expecting-- maybe it wants more of a technical response regarding the workings of the project itself, but I also
+simply feel that my apathy at this point in time is truely the largest challenge to be highlighted at this juncture.
+
+From a technical standpoint, I did find that I was unsure on what sort of 'skeleton' or structure my html would appear to have, when I had no CSS to apply to it. I had
+missed a week of content I should have been able to collect the week prior, but I did collect the relevant content for my website this week, so there is a page that I would
+be able to complete thusfar should styling be applied.
+
+4. What things would you like to learn more about after having worked on this assignment?
+
+I don't feel as if there is anything in particular that I would like to learn more of as a result of this assignment. Certainly, there would be aspects of CSS and Bootstrap
+that I would like to continue to practice, but I don't feel as if those are particularily applicable to the expectations of this assignment.
+
+Total Score: 14
