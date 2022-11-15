@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+    <title>WonderLand Wiki</title>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="week1.html">Week 1</a></li>
+                <li><a href="week2.html">Week 2</a></li>
+                <li><a href="week3.html">Week 3</a></li>
+                <li><a href="week4.html">Week 4</a></li>
+                <li><a href="submit.html">Submit</a></li>
+                <li><a href="teams.html">Teams</a></li>
+            </ul>
+        </nav>
+
+        <div><!--Container-->
+            <div><!--Frame-->
+                <div><!--Stage List Container-->
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li>7</li>
+                        <li>8</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+        </footer>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            var topoffset = 70; //variable for menu height
+
+            //Use smooth scrolling when clicking on navigation
+            $('.navbar-nav a').click(function () {
+                if (location.pathname.replace(/^\//, '') ===
+                    this.pathname.replace(/^\//, '') &&
+                    location.hostname === this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top - topoffset
+                        }, 500);
+                        return false;
+                    } //target.length
+                } //click function
+            }); //smooth scrolling
+
+        });
+
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+
+    </script>
+</body>
+
+</html>
