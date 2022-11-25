@@ -8,6 +8,10 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+p {
+  margin-bottom: 0;
+}
+
 .banner img {
   filter: brightness(70%);
   background-size: cover;
@@ -46,21 +50,45 @@ body {
   padding-top: 5px;
 }
 .stage-container .stage-item {
+  font-size: 1.15rem;
+  font-weight: 450;
   background: radial-gradient(ellipse at top, #efd29c, transparent), radial-gradient(ellipse at bottom, #d0ae7b, transparent);
 }
-.stage-container .stage-item h3 {
+.stage-container .stage-item h3, .stage-container .stage-item h4 {
   text-align: center;
+  margin: auto;
+  border-bottom: 1px white solid;
 }
 .stage-container .stage-item > p {
-  width: 90%;
+  width: 100%;
+  padding: 1rem;
   text-align: center;
+  background-color: rgba(128, 128, 128, 0.2);
 }
 .stage-container .stage-item .wave-item {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.stage-container .stage-item .wave-item .text-box {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.1);
+  height: 100%;
+  border: 1px rgba(177, 177, 177, 0.486) solid;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  font-weight: bolder;
+  flex-direction: column-reverse;
+  grid-row: span 1/3;
+}
+.stage-container .stage-item .wave-item .text-box img {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0 10px;
+}
 .stage-container .stage-item .team-img, .stage-container .stage-item .wave-img {
-  border: 5px #d0ae7b solid;
+  border: 1px #d0ae7b solid;
 }
 .stage-container .stage-item .team-img {
   width: 100%;
