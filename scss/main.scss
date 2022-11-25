@@ -48,6 +48,10 @@
 
     .stage-item{
 
+        background:
+            radial-gradient(ellipse at top, $primary-color, transparent),
+            radial-gradient(ellipse at bottom, $secondary-color, transparent);
+
         h3 {
             text-align: center;
         }
@@ -60,6 +64,10 @@
         .wave-item{
             display: grid;
             grid-template-columns: 1fr 1fr;
+        }
+
+        .team-img, .wave-img {
+            border: 5px $secondary-color solid;
         }
 
         .team-img {

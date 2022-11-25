@@ -45,6 +45,9 @@ body {
   text-align: center;
   padding-top: 5px;
 }
+.stage-container .stage-item {
+  background: radial-gradient(ellipse at top, #efd29c, transparent), radial-gradient(ellipse at bottom, #d0ae7b, transparent);
+}
 .stage-container .stage-item h3 {
   text-align: center;
 }
@@ -55,6 +58,9 @@ body {
 .stage-container .stage-item .wave-item {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.stage-container .stage-item .team-img, .stage-container .stage-item .wave-img {
+  border: 5px #d0ae7b solid;
 }
 .stage-container .stage-item .team-img {
   width: 100%;
