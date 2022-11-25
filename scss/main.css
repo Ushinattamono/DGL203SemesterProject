@@ -6,6 +6,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
 }
 
 p {
@@ -50,7 +51,6 @@ p {
   padding-top: 5px;
 }
 .stage-container .stage-item {
-  font-size: 1.15rem;
   font-weight: 450;
   background: radial-gradient(ellipse at top, #efd29c, transparent), radial-gradient(ellipse at bottom, #d0ae7b, transparent);
 }
@@ -59,11 +59,13 @@ p {
   margin: auto;
   border-bottom: 1px white solid;
 }
-.stage-container .stage-item > p {
+.stage-container .stage-item p {
   width: 100%;
-  padding: 1rem;
   text-align: center;
   background-color: rgba(128, 128, 128, 0.2);
+}
+.stage-container .stage-item .team-notes p:last-child {
+  padding-bottom: 1rem;
 }
 .stage-container .stage-item .wave-item-container {
   display: grid;
@@ -94,5 +96,23 @@ p {
 }
 .stage-container .stage-item .wave-img-container .wave-img {
   width: 100%;
+  margin-top: 28.797px;
+}
+
+.pop-div {
+  font-size: 13px;
+  margin-top: 100px;
+  position: relative;
+  bottom: 500px;
+}
+
+.popover-header {
+  color: blue;
+  font-size: 15px;
+}
+
+.popover-body {
+  color: red;
+  font-size: 10px;
 }
 /*# sourceMappingURL=main.css.map */

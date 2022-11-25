@@ -47,8 +47,6 @@
     }
 
     .stage-item{
-
-        font-size: 1.15rem;
         font-weight: 450;
 
         background:
@@ -62,11 +60,14 @@
         
         }
 
-        &> p {
+        p {
             width: 100%;
-            padding: 1rem;
             text-align: center;
             background-color: transparentize(grey, 0.8);
+        }
+
+        .team-notes p:last-child {
+            padding-bottom: 1rem;
         }
 
         .wave-item-container{
@@ -102,7 +103,25 @@
         .wave-img-container {
             .wave-img {
                 width: 100%;
+                margin-top: 28.797px;
             }
         }        
     }
+}
+
+.pop-div {
+    font-size: 13px;
+    margin-top: 100px;
+    position: relative;
+    bottom: 500px;
+}
+
+.popover-header {
+    color: blue;
+    font-size: 15px;
+}
+
+.popover-body {
+    color: red;
+    font-size: 10px;
 }
