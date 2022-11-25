@@ -1,0 +1,13 @@
+.banner img {
+  filter: brightness(50%);
+  background-size: cover;
+  height: 15vh;
+  width: 100%;
+  position: absolute;
+}
+.banner h1 {
+  padding: 1rem;
+  z-index: 1;
+  position: relative;
+}
+/*# sourceMappingURL=main.css.map */
