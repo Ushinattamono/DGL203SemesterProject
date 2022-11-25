@@ -1,12 +1,8 @@
 @import 'config';
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .banner {
 
-    img{
+    img {
         filter: brightness(70%);
         background-size: cover;
         height: 15vh;
@@ -20,27 +16,58 @@ body {
     }
 }
 
-.stage-list {
-    display: flex;
-    justify-content: space-around;
-    border-radius: 10px 10px 0px 0px;
-    margin-bottom: 0;
-    
-    .list-group {
-        display: flex;
-        flex-direction: row;
-        justify-content:center;
-        width: 100%;
-
-        a {
-            flex-grow: 1;
-            border: 1px solid black;
-            border-radius: 5px 5px 0px 0px;
-            background-color: white;
-            width: 10vw; 
-            text-align: center;
-            padding-top: 5px;
-        }
-    }    
+.card-body {
+    padding: 0;
 }
 
+.stage-container {
+
+    .stage-list {
+        display: flex;
+        justify-content: space-around;
+        border-radius: 10px 10px 0px 0px;
+        margin-bottom: 0;
+
+        .list-group {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+
+            a {
+                flex-grow: 1;
+                border: 1px solid black;
+                border-radius: 5px 5px 0px 0px;
+                background-color: white;
+                width: 10vw;
+                text-align: center;
+                padding-top: 5px;
+            }
+        }
+    }
+
+    .stage-item{
+
+        h3 {
+            text-align: center;
+        }
+
+        &> p {
+            width: 90%;
+            text-align: center;
+        }
+
+        .wave-item{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .team-img {
+            width: 100%;
+        }
+        .wave-img {
+            width: 50vw;
+            grid-row: span 2;
+        }
+    }
+}

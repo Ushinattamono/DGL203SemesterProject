@@ -20,19 +20,23 @@ body {
   position: relative;
 }
 
-.stage-list {
+.card-body {
+  padding: 0;
+}
+
+.stage-container .stage-list {
   display: flex;
   justify-content: space-around;
   border-radius: 10px 10px 0px 0px;
   margin-bottom: 0;
 }
-.stage-list .list-group {
+.stage-container .stage-list .list-group {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
 }
-.stage-list .list-group a {
+.stage-container .stage-list .list-group a {
   flex-grow: 1;
   border: 1px solid black;
   border-radius: 5px 5px 0px 0px;
@@ -40,5 +44,23 @@ body {
   width: 10vw;
   text-align: center;
   padding-top: 5px;
+}
+.stage-container .stage-item h3 {
+  text-align: center;
+}
+.stage-container .stage-item > p {
+  width: 90%;
+  text-align: center;
+}
+.stage-container .stage-item .wave-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.stage-container .stage-item .team-img {
+  width: 100%;
+}
+.stage-container .stage-item .wave-img {
+  width: 50vw;
+  grid-row: span 2;
 }
 /*# sourceMappingURL=main.css.map */
