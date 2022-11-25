@@ -1,2 +1,2 @@
-.banner img{filter:brightness(50%);background-size:cover;height:15vh;width:100%;position:absolute}.banner h1{padding:1rem;z-index:1;position:relative}
+*{margin:0;padding:0;box-sizing:border-box}.banner img{filter:brightness(80%);background-size:cover;height:15vh;width:100%;position:absolute}.banner h1{padding:1rem;position:relative}.stage-list{display:flex;justify-content:space-around;background-color:tan;border-radius:10px 10px 0px 0px}.stage-list .list-group{flex-direction:row}.stage-list a{border-radius:100px;border-color:#000;background-color:#fff;padding:0px 10px}
 /*# sourceMappingURL=main.min.css.map */

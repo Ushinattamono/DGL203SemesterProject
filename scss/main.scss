@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .banner {
 
     img{
-        filter: brightness(50%);
+        filter: brightness(80%);
         background-size: cover;
         height: 15vh;
         width: 100%;
@@ -10,7 +16,25 @@
 
     h1 {
         padding: 1rem;
-        z-index: 1;
         position: relative;
     }
 }
+
+.stage-list {
+    display: flex;
+    justify-content: space-around;
+    background-color: tan;
+    border-radius: 10px 10px 0px 0px;
+    
+    .list-group {
+        flex-direction: row;
+    }
+
+    a {
+        border-radius: 100px;
+        border-color: black;
+        background-color: white;
+        padding: 0px 10px;
+    }
+}
+
