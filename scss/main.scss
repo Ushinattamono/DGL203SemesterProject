@@ -1,13 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import 'config';
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .banner {
 
     img{
-        filter: brightness(80%);
+        filter: brightness(70%);
         background-size: cover;
         height: 15vh;
         width: 100%;
@@ -23,18 +23,24 @@
 .stage-list {
     display: flex;
     justify-content: space-around;
-    background-color: tan;
     border-radius: 10px 10px 0px 0px;
+    margin-bottom: 0;
     
     .list-group {
+        display: flex;
         flex-direction: row;
-    }
+        justify-content:center;
+        width: 100%;
 
-    a {
-        border-radius: 100px;
-        border-color: black;
-        background-color: white;
-        padding: 0px 10px;
-    }
+        a {
+            flex-grow: 1;
+            border: 1px solid black;
+            border-radius: 5px 5px 0px 0px;
+            background-color: white;
+            width: 10vw; 
+            text-align: center;
+            padding-top: 5px;
+        }
+    }    
 }
 

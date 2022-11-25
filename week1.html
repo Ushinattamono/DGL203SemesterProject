@@ -37,108 +37,73 @@
 
         <div class="stage-container">
             <ul class="stage-list">
-                <div class="list-group" id="list-education" role="tablist">
-                    <a class=""
-                      data-toggle="collapse"
-                      href="#wt1"
-                      role="button"
-                      aria-expanded="false"
-                      aria-controls="wt1">1</a>
-                        
-                    <a class=""
-                      data-toggle="collapse"
-                      href="#wt2"
-                      role="tab"
-                      aria-controls="wt2">2</a>
-    
-                      <a class=""
-                      data-toggle="collapse"
-                      href="#wt3"
-                      role="tab"
-                      aria-controls="wt3">3</a>
-                      
-                      <a class=""
-                      data-toggle="collapse"
-                      href="#wt4"
-                      role="tab"
-                      aria-controls="wt4">4</a>
-                      
-                      <a class=""
-                      data-toggle="collapse"
-                      href="#wt5"
-                      role="tab"
-                      aria-controls="wt5">5</a>
-                      
-                      <a class=""
-                      data-toggle="collapse"
-                      href="#wt6"
-                      role="tab"
-                      aria-controls="wt6">6</a>
-                      
-                      <a class=""
-                      data-toggle="collapse"
-                      href="#wt7"
-                      role="tab"
-                      aria-controls="wt7">7</a>
-                      
-                      <a class=""
-                      data-toggle="collapse"
-                      href="#wt8"
-                      role="tab"
-                      aria-controls="wt8">8</a>                     
-                  </div>
-                  
-            </ul>
-            <div class="collapse" id="wt1">
-                <div class="card card-body bg-secondary text-light">
-                  wt1 content
-                </div>
-              </div>
+                <div class="list-group" id="#stage-number" role="tablist">
+                    <a class="" data-toggle="collapse" href="#wt1" role="tab" aria-controls="wt1">1</a>
 
-              <div class="collapse" id="wt2">
+                    <a class="" data-toggle="collapse" href="#wt2" role="tab" aria-controls="wt2">2</a>
+
+                    <a class="" data-toggle="collapse" href="#wt3" role="tab" aria-controls="wt3">3</a>
+
+                    <a class="" data-toggle="collapse" href="#wt4" role="tab" aria-controls="wt4">4</a>
+
+                    <a class="" data-toggle="collapse" href="#wt5" role="tab" aria-controls="wt5">5</a>
+
+                    <a class="" data-toggle="collapse" href="#wt6" role="tab" aria-controls="wt6">6</a>
+
+                    <a class="" data-toggle="collapse" href="#wt7" role="tab" aria-controls="wt7">7</a>
+
+                    <a class="" data-toggle="collapse" href="#wt8" role="tab" aria-controls="wt8">8</a>
+                </div>
+
+            </ul>
+            <div class="collapse indent" id="wt1">
                 <div class="card card-body bg-secondary text-light">
-                    wt2 content
-              </div>
+                    wt1 content
+                </div>
             </div>
 
-              <div class="collapse" id="wt3">
+            <div class="collapse indent" id="wt2">
                 <div class="card card-body bg-secondary text-light">
-                  wt3 content
+                    wt2 content
                 </div>
-              </div>
+            </div>
 
-              <div class="collapse" id="wt4">
+            <div class="collapse indent" id="wt3">
                 <div class="card card-body bg-secondary text-light">
-                  wt4 content
+                    wt3 content
                 </div>
-              </div>
-              
-              <div class="collapse" id="wt5">
-                <div class="card card-body bg-secondary text-light">
-                  wt5 content
-                </div>
-              </div>
-              
-              <div class="collapse" id="wt6">
-                <div class="card card-body bg-secondary text-light">
-                  wt6 content
-                </div>
-              </div>
-              
-              <div class="collapse" id="wt7">
-                <div class="card card-body bg-secondary text-light">
-                  wt7 content
-                </div>
-              </div>
-              
-              <div class="collapse" id="wt8">
-                <div class="card card-body bg-secondary text-light">
-                  wt8 content
-                </div>
-              </div>
-              
+            </div>
 
-        
+            <div class="collapse indent" id="wt4">
+                <div class="card card-body bg-secondary text-light">
+                    wt4 content
+                </div>
+            </div>
+
+            <div class="collapse indent" id="wt5">
+                <div class="card card-body bg-secondary text-light">
+                    wt5 content
+                </div>
+            </div>
+
+            <div class="collapse indent" id="wt6">
+                <div class="card card-body bg-secondary text-light">
+                    wt6 content
+                </div>
+            </div>
+
+            <div class="collapse indent" id="wt7">
+                <div class="card card-body bg-secondary text-light">
+                    wt7 content
+                </div>
+            </div>
+
+            <div class="collapse indent" id="wt8">
+                <div class="card card-body bg-secondary text-light">
+                    wt8 content
+                </div>
+            </div>
+        </div>
 
         <!-- <div class="container" id="teams">
             <h2 class="text-light">Week 1</h2>
@@ -371,6 +336,11 @@
     <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        jQuery('a').click(function (e) {
+            jQuery('.collapse').collapse('hide');
+        });
+    </script>
     <script>
         $(function () {
             var topoffset = 70; //variable for menu height
