@@ -69,21 +69,20 @@
             background-color: transparentize(grey, 0.8);
         }
 
-        .wave-item{
+        .wave-item-container{
             display: grid;
             grid-template-columns: 1fr 1fr;
 
             .text-box {
                 display: flex;
                 background-color: rgba(128, 128, 128, 0.1);
-                height: 100%;
+                height: calc(100% - 28.797px);
                 border: 1px rgba(177, 177, 177, 0.486) solid;
                 align-items: center;
                 justify-content: center;
                 font-size: large;
                 font-weight: bolder;
                 flex-direction: column-reverse;
-                grid-row: span 1/3;
 
                 img {
                     height: fit-content;
@@ -99,9 +98,11 @@
         .team-img {
             width: 100%;
         }
-        .wave-img {
-            width: 50vw;
-            grid-row: span 2;
-        }
+
+        .wave-img-container {
+            .wave-img {
+                width: 100%;
+            }
+        }        
     }
 }
