@@ -61,9 +61,7 @@
         }
 
         p {
-            width: 100%;
             text-align: center;
-            background-color: transparentize(grey, 0.8);
         }
 
         .team-notes p:last-child {
@@ -76,18 +74,19 @@
 
             .text-box {
                 display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
                 background-color: rgba(128, 128, 128, 0.1);
                 height: calc(100% - 28.797px);
                 border: 1px rgba(177, 177, 177, 0.486) solid;
                 align-items: center;
                 justify-content: center;
                 font-size: large;
-                font-weight: bolder;
-                flex-direction: column-reverse;
+                font-weight: bolder;                
 
                 img {
                     height: fit-content;
-                    padding: 0 10px;
+                    padding: 0;
                 }
             }
         }

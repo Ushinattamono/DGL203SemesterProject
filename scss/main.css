@@ -6,7 +6,6 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: black;
 }
 
 p {
@@ -60,9 +59,7 @@ p {
   border-bottom: 1px white solid;
 }
 .stage-container .stage-item p {
-  width: 100%;
   text-align: center;
-  background-color: rgba(128, 128, 128, 0.2);
 }
 .stage-container .stage-item .team-notes p:last-child {
   padding-bottom: 1rem;
@@ -73,6 +70,8 @@ p {
 }
 .stage-container .stage-item .wave-item-container .text-box {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   background-color: rgba(128, 128, 128, 0.1);
   height: calc(100% - 28.797px);
   border: 1px rgba(177, 177, 177, 0.486) solid;
@@ -80,13 +79,12 @@ p {
   justify-content: center;
   font-size: large;
   font-weight: bolder;
-  flex-direction: column-reverse;
 }
 .stage-container .stage-item .wave-item-container .text-box img {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  padding: 0 10px;
+  padding: 0;
 }
 .stage-container .stage-item .team-img, .stage-container .stage-item .wave-img {
   border: 1px #d0ae7b solid;
