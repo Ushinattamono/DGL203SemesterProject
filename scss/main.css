@@ -51,6 +51,7 @@ p {
   border-radius: 5px 5px 0px 0px;
   background: linear-gradient(#efd29c, #a0793f);
   color: white;
+  font-weight: bold;
   text-shadow: -1px -1px 0 rgb(228, 154, 17), 1px -1px 0 rgb(228, 154, 17), -1px 1px 0 rgb(228, 154, 17), 1px 1px 0 rgb(228, 154, 17);
   width: 10vw;
   text-align: center;
