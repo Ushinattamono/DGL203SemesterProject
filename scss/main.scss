@@ -18,6 +18,11 @@
 
 .card-body {
     padding: 0;
+    border: none;
+}
+
+.card {
+    border-radius: none;
 }
 
 .stage-container {
@@ -36,9 +41,11 @@
 
             a {
                 flex-grow: 1;
-                border: 1px solid black;
+                border-right: 1px solid $tertiary-color;
                 border-radius: 5px 5px 0px 0px;
-                background-color: white;
+                background: linear-gradient($primary-color, $secondary-color);
+                color: white;
+                text-shadow: -1px -1px 0 $tertiary-color, 1px -1px 0 $tertiary-color, -1px 1px 0 $tertiary-color, 1px 1px 0 $tertiary-color;
                 width: 10vw;
                 text-align: center;
                 padding-top: 5px;
