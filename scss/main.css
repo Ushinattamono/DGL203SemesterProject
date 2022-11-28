@@ -100,16 +100,23 @@ p {
 .stage-container .stage-item .team-img {
   width: 100%;
 }
+.stage-container .stage-item .wave-img-container {
+  position: relative;
+  margin-top: 28.797px;
+}
 .stage-container .stage-item .wave-img-container .wave-img {
   width: 100%;
-  margin-top: 28.797px;
 }
 
 .pop-div {
   font-size: 13px;
-  margin-top: 100px;
-  position: relative;
-  bottom: 500px;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -125px;
+  width: 250px;
+  text-align: center;
+  background-color: #333;
 }
 
 .popover-header {
@@ -120,5 +127,24 @@ p {
 .popover-body {
   color: red;
   font-size: 10px;
+}
+
+.enemy-container {
+  position: absolute;
+  z-index: 9999;
+  top: 25%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: blue;
+  cursor: pointer;
+}
+.enemy-container > * {
+  display: none;
+}
+.enemy-container:hover > * {
+  display: inherit;
+  background-color: rgba(255, 0, 0, 0.5);
 }
 /*# sourceMappingURL=main.css.map */
