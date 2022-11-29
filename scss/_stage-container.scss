@@ -1,5 +1,21 @@
 
 .stage-container {
+
+    @media screen and (min-width: $small) {
+        margin: auto;
+        width: 90%;
+    }
+
+    @media screen and (min-width: $medium){
+        margin: auto;
+        width: 70%;
+    }
+
+    @media screen and (min-width: $large){
+        margin: auto;
+        width: 50%;
+    }
+
     .stage-list {
         display: flex;
         justify-content: space-around;

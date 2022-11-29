@@ -118,6 +118,24 @@ p {
   opacity: 0;
 }
 
+@media screen and (min-width: 540px) {
+  .stage-container {
+    margin: auto;
+    width: 90%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .stage-container {
+    margin: auto;
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .stage-container {
+    margin: auto;
+    width: 50%;
+  }
+}
 .stage-container .stage-list {
   display: flex;
   justify-content: space-around;
