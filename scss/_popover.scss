@@ -32,6 +32,18 @@
     background-color: rgba(255, 255, 255, 0.233);
     cursor: pointer;
 
+    @media screen and (min-width: $small){
+        width: 2.6vw;
+    
+    }
+    @media screen and (min-width: $medium){
+        width: 2.1vw;
+    }
+
+    @media screen and (min-width: $large){
+        width: 1.7vw;
+    }
+
     >* {
         display: none;
         background-color: rgba($color: white, $alpha: 1);

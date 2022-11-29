@@ -247,6 +247,21 @@ p {
   background-color: rgba(255, 255, 255, 0.233);
   cursor: pointer;
 }
+@media screen and (min-width: 540px) {
+  .enemy-container {
+    width: 2.6vw;
+  }
+}
+@media screen and (min-width: 800px) {
+  .enemy-container {
+    width: 2.1vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .enemy-container {
+    width: 1.7vw;
+  }
+}
 .enemy-container > * {
   display: none;
   background-color: white;
