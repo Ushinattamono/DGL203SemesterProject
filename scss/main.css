@@ -224,16 +224,18 @@ p {
   margin-left: -80px;
   width: 160px;
   text-align: start;
+  background-color: lightgrey;
 }
 .enemy-container .pop-div > * {
   padding: 0rem 0.5rem;
 }
 .enemy-container .pop-div > .pop-title {
   font-weight: bolder;
+  border-radius: 15px 15px 0 0;
+  background-color: white;
   border-bottom: 1px solid rgb(151, 151, 151);
 }
 .enemy-container .pop-div > .pop-content {
-  background-color: lightgrey;
   border-radius: 0px 0px 15px 15px;
 }
 .enemy-container .pop-div > .pop-content :first-child {
@@ -241,5 +243,8 @@ p {
 }
 .enemy-container .pop-div > .pop-content :last-child {
   color: rgb(214, 139, 0);
+}
+.enemy-container .pop-div > .pop-status {
+  border-radius: 0px 0px 15px 15px;
 }
 /*# sourceMappingURL=main.css.map */

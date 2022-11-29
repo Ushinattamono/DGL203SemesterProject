@@ -247,7 +247,8 @@
         left: 50%;
         margin-left: -80px;
         width: 160px; // I can change this to whatever I want, but the margin-left must be negative half of that value.
-        text-align:start;       
+        text-align:start; 
+        background-color: lightgrey;    
 
         > * {
             padding: 0rem 0.5rem;
@@ -255,11 +256,12 @@
 
         > .pop-title{
             font-weight:bolder;
+            border-radius: 15px 15px 0 0;
+            background-color: white;
             border-bottom: 1px solid rgb(151, 151, 151);
         }
 
         > .pop-content {
-            background-color: lightgrey;
             border-radius: 0px 0px 15px 15px;
             :first-child{
                 color: green;
@@ -268,6 +270,10 @@
             :last-child{
                 color: rgb(214, 139, 0);
             }
+        }
+
+        > .pop-status{
+            border-radius: 0px 0px 15px 15px;
         }
     }
 }
