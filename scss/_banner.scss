@@ -1,4 +1,6 @@
 .banner {
+    display: flex;
+    justify-content: center;
 
     img {
         filter: brightness(70%);

@@ -12,6 +12,10 @@ p {
   margin-bottom: 0;
 }
 
+.banner {
+  display: flex;
+  justify-content: center;
+}
 .banner img {
   filter: brightness(70%);
   background-size: cover;
