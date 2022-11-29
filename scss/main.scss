@@ -197,46 +197,77 @@
     }
 }
 
-.pop-div {
-    font-size: 13px;
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -125px;
-    width: 250px; // I can change this to whatever I want, but the margin-left must be negative half of that value.
-    text-align: center;
-    background-color: #333;
+.first {
+    top: 10%; // Adjust these two rules for positioning
+    left: 57%; // Adjust these two rules for positioning
 }
 
-.popover-header {
-    color: blue;
-    font-size: 15px;
+.second {
+    top: 10%; // Adjust these two rules for positioning
+    left: 63%; // Adjust these two rules for positioning
 }
 
-.popover-body {
-    color: red;
-    font-size: 10px;
+.third{
+    top: 10%; // Adjust these two rules for positioning
+    left: 69%; // Adjust these two rules for positioning
+}
+.fourth{
+    top: 10%; // Adjust these two rules for positioning
+    left: 75%; // Adjust these two rules for positioning
+}
+.fifth{
+    top: 10%; // Adjust these two rules for positioning
+    left: 81%; // Adjust these two rules for positioning
 }
 
 .enemy-container {
     position: absolute;
-    z-index: 9999;
-    top: 30%; // Adjust these two rules for positioning
-    left: 55%; // Adjust these two rules for positioning
-    width: 30px;
-    height: 30px;
-    // border: 5px solid rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    background: blue;
+    z-index: 9999;    
+    width: 3vw;
+    height: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.658);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.233);
     cursor: pointer;
 
     >* {
         display: none;
+        background-color: rgba($color: white, $alpha: 1);
+        border-radius: 15px;
     }
 
     &:hover>* {
         display: inherit;
-        background-color: rgba($color: red, $alpha: 0.5);
-        //TODO: make the background half-transparent
+    }
+
+    .pop-div {
+        font-size: 13px;
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -75px;
+        width: 150px; // I can change this to whatever I want, but the margin-left must be negative half of that value.
+        text-align:start;       
+
+        > * {
+            padding: 0rem 0.5rem;
+        }
+
+        > .pop-title{
+            font-weight:bolder;
+            border-bottom: 1px solid rgb(151, 151, 151);
+        }
+
+        > .pop-content {
+            background-color: lightgrey;
+            border-radius: 0px 0px 15px 15px;
+            :first-child{
+                color: green;
+
+            }
+            :last-child{
+                color: rgb(214, 139, 0);
+            }
+        }
     }
 }

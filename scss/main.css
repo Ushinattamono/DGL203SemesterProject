@@ -173,43 +173,73 @@ p {
   width: 100%;
 }
 
-.pop-div {
-  font-size: 13px;
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -125px;
-  width: 250px;
-  text-align: center;
-  background-color: #333;
+.first {
+  top: 10%;
+  left: 57%;
 }
 
-.popover-header {
-  color: blue;
-  font-size: 15px;
+.second {
+  top: 10%;
+  left: 63%;
 }
 
-.popover-body {
-  color: red;
-  font-size: 10px;
+.third {
+  top: 10%;
+  left: 69%;
+}
+
+.fourth {
+  top: 10%;
+  left: 75%;
+}
+
+.fifth {
+  top: 10%;
+  left: 81%;
 }
 
 .enemy-container {
   position: absolute;
   z-index: 9999;
-  top: 30%;
-  left: 55%;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: blue;
+  width: 3vw;
+  height: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.658);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.233);
   cursor: pointer;
 }
 .enemy-container > * {
   display: none;
+  background-color: white;
+  border-radius: 15px;
 }
 .enemy-container:hover > * {
   display: inherit;
-  background-color: rgba(255, 0, 0, 0.5);
+}
+.enemy-container .pop-div {
+  font-size: 13px;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -75px;
+  width: 150px;
+  text-align: start;
+}
+.enemy-container .pop-div > * {
+  padding: 0rem 0.5rem;
+}
+.enemy-container .pop-div > .pop-title {
+  font-weight: bolder;
+  border-bottom: 1px solid rgb(151, 151, 151);
+}
+.enemy-container .pop-div > .pop-content {
+  background-color: lightgrey;
+  border-radius: 0px 0px 15px 15px;
+}
+.enemy-container .pop-div > .pop-content :first-child {
+  color: green;
+}
+.enemy-container .pop-div > .pop-content :last-child {
+  color: rgb(214, 139, 0);
 }
 /*# sourceMappingURL=main.css.map */
