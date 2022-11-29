@@ -169,7 +169,7 @@ p {
   margin: auto;
   border-bottom: 1px white solid;
 }
-.stage-container .stage-item p {
+.stage-container .stage-item .team-notes, .stage-container .stage-item .text-box, .stage-container .stage-item .environment-status {
   text-align: center;
 }
 .stage-container .stage-item .team-notes p:last-child {
@@ -274,9 +274,10 @@ p {
   font-size: 13px;
   position: absolute;
   bottom: 100%;
+  left: 50%;
   transform: translateX(-6rem);
-  margin-left: -150px;
-  width: 300px;
+  margin-left: -100px;
+  width: 200px;
   text-align: start;
   background-color: lightgrey;
 }
@@ -300,6 +301,13 @@ p {
 }
 .enemy-container .pop-div > .pop-status {
   border-radius: 0px 0px 15px 15px;
+  text-align: start;
+}
+.enemy-container .pop-div > .pop-status > p {
+  border-bottom: 1px solid rgb(160, 160, 160);
+}
+.enemy-container .pop-div > .pop-status :last-child {
+  border-bottom: none;
 }
 
 .landing {

@@ -58,10 +58,10 @@
         font-size: 13px;
         position: absolute;
         bottom: 100%;
-        // left: 50%;
+        left: 50%;
         transform: translateX(-6rem);
-        margin-left: -150px;
-        width: 300px; // I can change this to whatever I want, but the margin-left must be negative half of that value.
+        margin-left: -100px;
+        width: 200px; // I can change this to whatever I want, but the margin-left must be negative half of that value.
         text-align:start; 
         background-color: lightgrey;    
 
@@ -89,6 +89,13 @@
 
         > .pop-status{
             border-radius: 0px 0px 15px 15px;
+            text-align: start;
+            > p{
+                border-bottom: 1px solid rgb(160, 160, 160);
+            }
+            :last-child{
+                border-bottom: none;
+            }
         }
     }
 }

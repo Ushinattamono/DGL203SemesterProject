@@ -52,7 +52,7 @@
                 <div class="card-body bg-secondary">
                     <div class="stage-item">
                         <h3>1-1: Day Trip at Mine</h3>
-                        <p>Environmental Status: Units without armor deal 90% less damage overall.
+                        <p class="environment-status">Environmental Status: Units without armor deal 90% less damage overall.
                         </p>
                         <img class="team-img" src="/images/week1/wt1/team.png" alt="wt1 week1 team">
                         <div class="team-notes">
@@ -264,7 +264,7 @@
                 <div class="card card-body bg-secondary">
                     <div class="stage-item">
                         <h3>1-2: Slime Challenge</h3>
-                        <p>Environmental Effect: Every second turn, a powerful hit will target an ally.
+                        <p class="environment-status">Environmental Effect: Every second turn, a powerful hit will target an ally.
                         </p>
                         <img class="team-img" src="/images/week1/wt2/team.png" alt="wt2 week1 team">
                         <div class="team-notes">
@@ -535,7 +535,7 @@
                 <div class="card card-body bg-secondary">
                     <div class="stage-item">
                         <h3>1-3: Gain... and Loss</h3>
-                        <p>Environmental Effect: Allies without a buff and a debuff deal 90% less damage to enemies
+                        <p class="environment-status">Environmental Effect: Allies without a buff and a debuff deal 90% less damage to enemies
                         </p>
                         <img class="team-img" src="/images/week1/wt3/team.png" alt="wt3 week1 team">
                         <div class="wave-item-container">
@@ -720,7 +720,7 @@
                 <div class="card card-body bg-secondary">
                     <div class="stage-item">
                         <h3>1-4: Sudden Deathmatch</h3>
-                        <p>Environmental Effect: For each time an ally is revived, increase skill power by 10%
+                        <p class="environment-status">Environmental Effect: For each time an ally is revived, increase skill power by 10%
                         </p>
                         <img class="team-img" src="/images/week1/wt4/team.png" alt="wt4 week1 team">
                         <div class="wave-item-container">
@@ -895,7 +895,7 @@
                 <div class="card card-body bg-secondary">
                     <div class="stage-item">
                         <h3>1-5: Struggle to Survive</h3>
-                        <p>Environmental Effect: When an ally casts a skill, remove HP equal to 10% of their maximum
+                        <p class="environment-status">Environmental Effect: When an ally casts a skill, remove HP equal to 10% of their maximum
                             health
                         </p>
                         <img class="team-img" src="/images/week1/wt5/team.png" alt="wt5 week1 team">
@@ -1190,7 +1190,7 @@
                 <div class="card card-body bg-secondary">
                     <div class="stage-item">
                         <h3>1-6: Silent Guardian</h3>
-                        <p>Environmental Effect: When an ally casts a skill, remove HP equal to 10% of their maximum
+                        <p class="environment-status">Environmental Effect: When an ally casts a skill, remove HP equal to 10% of their maximum
                             health
                         </p>
                         <img class="team-img" src="/images/week1/wt6/team.png" alt="wt6 week1 team">
@@ -1321,7 +1321,7 @@
                 <div class="card card-body bg-secondary">
                     <div class="stage-item">
                         <h3>1-7: Desert Smuggling</h3>
-                        <p>Environmental Effect: All allies begin with rage and 50% armour
+                        <p class="environment-status">Environmental Effect: All allies begin with rage and 50% armour
                         </p>
                         <img class="team-img" src="/images/week1/wt7/team.png" alt="wt7 week1 team">
                         <div class="wave-item-container">
@@ -1622,7 +1622,7 @@
                 <div class="card card-body bg-secondary">
                     <div class="stage-item">
                         <h3>1-8: Countless Weeds</h3>
-                        <p>Environmental Effect: All allies begin with enhance for all turns
+                        <p class="environment-status">Environmental Effect: All allies begin with enhance for all turns
                         </p>
                         <img class="team-img" src="/images/week1/wt8/team.png" alt="wt8 week1 team">
                         <div class="wave-item-container">
@@ -1729,19 +1729,6 @@
     <script>
         jQuery('a').click(function (e) {
             jQuery('.collapse').collapse('hide');
-        });
-    </script>
-    <script>
-        $("#poplink").popover({
-            html: true,
-            placement: "right",
-            trigger: "click",
-            title: function () {
-                return $(".pop-title").html();
-            },
-            content: function () {
-                return $(".pop-content").html();
-            }
         });
     </script>
     <script>
