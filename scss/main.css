@@ -76,10 +76,21 @@ p {
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   border-bottom: 1px solid white;
 }
+.landing-container .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+  position: absolute;
+}
 .landing-container .landing-img {
   width: 100%;
   display: flex;
   justify-content: center;
+  position: relative;
+}
+.landing-container .landing-img:hover > .overlay {
+  opacity: 0;
 }
 
 .stage-container .stage-list {
@@ -110,7 +121,8 @@ p {
   font-weight: 450;
   background: radial-gradient(ellipse at top, #efd29c, transparent), radial-gradient(ellipse at bottom, #a0793f, transparent);
 }
-.stage-container .stage-item h3, .stage-container .stage-item h4 {
+.stage-container .stage-item h3,
+.stage-container .stage-item h4 {
   text-align: center;
   margin: auto;
   border-bottom: 1px white solid;
@@ -143,7 +155,8 @@ p {
   height: fit-content;
   padding: 0;
 }
-.stage-container .stage-item .team-img, .stage-container .stage-item .wave-img {
+.stage-container .stage-item .team-img,
+.stage-container .stage-item .wave-img {
   border: 1px #a0793f solid;
 }
 .stage-container .stage-item .team-img {
