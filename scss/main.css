@@ -274,9 +274,9 @@ p {
   font-size: 13px;
   position: absolute;
   bottom: 100%;
-  left: 50%;
-  margin-left: -80px;
-  width: 160px;
+  transform: translateX(-6rem);
+  margin-left: -150px;
+  width: 300px;
   text-align: start;
   background-color: lightgrey;
 }

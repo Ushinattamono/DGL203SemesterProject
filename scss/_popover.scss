@@ -58,9 +58,10 @@
         font-size: 13px;
         position: absolute;
         bottom: 100%;
-        left: 50%;
-        margin-left: -80px;
-        width: 160px; // I can change this to whatever I want, but the margin-left must be negative half of that value.
+        // left: 50%;
+        transform: translateX(-6rem);
+        margin-left: -150px;
+        width: 300px; // I can change this to whatever I want, but the margin-left must be negative half of that value.
         text-align:start; 
         background-color: lightgrey;    
 
