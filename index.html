@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="scss/bootstrap.min.css">
+    <link rel="stylesheet" href="scss/main.css">
+    <title>WonderLand Wiki</title>
+</head>
+
+<body class="bg-dark">
+    <main>
+        <section class="landing-container">
+            <a class="landing-img" href="week1.html">
+                <h1>Week 1: Inexorable Silence</h1>
+                <img src="/images/banner/week1banner.png" alt="week 1 banner">
+            </a>
+            <a class="landing-img" href="week2.html">
+                <h1>Week 2: False Gods</h1>
+                <img src="/images/banner/week2banner.jpg" alt="week 2 banner">
+            </a>
+            <a class="landing-img" href="week3.html">
+                <h1>Week 3: Matriarch's Scorn</h1>
+                <img src="/images/banner/week4banner.jpg" alt="week 3 banner">
+            </a>
+            <a class="landing-img" href="week4.html">
+                <h1>Week 4: Dieseased Persistance</h1>
+                <img src="/images/banner/week3banner.png " alt="week 4 banner">
+            </a>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        jQuery('a').click(function (e) {
+            jQuery('.collapse').collapse('hide');
+        });
+    </script>
+    <script>
+        $("#poplink").popover({
+            html: true,
+            placement: "right",
+            trigger: "click",
+            title: function () {
+                return $(".pop-title").html();
+            },
+            content: function () {
+                return $(".pop-content").html();
+            }
+        });
+    </script>
+    <script>
+        $(function () {
+            var topoffset = 70; //variable for menu height
+
+            //Use smooth scrolling when clicking on navigation
+            $('.navbar-nav a').click(function () {
+                if (location.pathname.replace(/^\//, '') ===
+                    this.pathname.replace(/^\//, '') &&
+                    location.hostname === this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top - topoffset
+                        }, 500);
+                        return false;
+                    } //target.length
+                } //click function
+            }); //smooth scrolling
+
+        });
+
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+
+    </script>
+</body>
+
+</html>

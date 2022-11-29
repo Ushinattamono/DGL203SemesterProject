@@ -25,6 +25,36 @@
     border-radius: none;
 }
 
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    h1 {
+        position: absolute;
+        opacity: 80%;
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+        color: white;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+        border-bottom: 1px solid white;
+    }
+
+    .landing-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+        img{
+            object-fit: fill;
+            max-width: 100%;
+            max-height: 25vh;            
+        }        
+    }
+}
+
+
 .stage-container {
 
     .stage-list {
