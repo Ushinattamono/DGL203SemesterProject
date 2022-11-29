@@ -1,0 +1,93 @@
+
+.stage-container {
+    .stage-list {
+        display: flex;
+        justify-content: space-around;
+        border-radius: 10px 10px 0px 0px;
+        margin-bottom: 0;
+
+        .list-group {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+
+            a {
+                flex-grow: 1;
+                border-right: 1px solid $tertiary-color;
+                border-radius: 5px 5px 0px 0px;
+                background: linear-gradient($primary-color, $secondary-color);
+                color: white;
+                font-weight: bold;
+                text-shadow: -1px -1px 0 $tertiary-color, 1px -1px 0 $tertiary-color, -1px 1px 0 $tertiary-color, 1px 1px 0 $tertiary-color;
+                width: 10vw;
+                text-align: center;
+                padding-top: 5px;
+            }
+        }
+    }
+
+    .stage-item {
+        font-weight: 450;
+
+        background:
+            radial-gradient(ellipse at top, $primary-color, transparent),
+            radial-gradient(ellipse at bottom, $secondary-color, transparent);
+
+        h3, h4 {
+            text-align: center;
+            margin: auto;
+            border-bottom: 1px white solid;
+
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .team-notes p:last-child {
+            padding-bottom: 1rem;
+        }
+
+        .wave-item-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .text-box {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                background-color: rgba(128, 128, 128, 0.1);
+                height: calc(100% - 28.797px);
+                border: 1px rgba(177, 177, 177, 0.486) solid;
+                align-items: center;
+                justify-content: center;
+                font-size: large;
+                font-weight: bolder;
+
+                img {
+                    height: fit-content;
+                    padding: 0;
+                }
+            }
+        }
+
+        .team-img,
+        .wave-img {
+            border: 1px $secondary-color solid;
+        }
+
+        .team-img {
+            width: 100%;
+        }
+
+        .wave-img-container {
+            position: relative;
+            margin-top: 28.797px;
+
+            .wave-img {
+                width: 100%;
+            }
+        }
+    }
+}

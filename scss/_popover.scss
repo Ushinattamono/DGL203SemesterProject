@@ -1,0 +1,81 @@
+
+.first {
+    top: 10%; // Adjust these two rules for positioning
+    left: 57%; // Adjust these two rules for positioning
+}
+
+.second {
+    top: 10%; // Adjust these two rules for positioning
+    left: 63%; // Adjust these two rules for positioning
+}
+
+.third{
+    top: 10%; // Adjust these two rules for positioning
+    left: 69%; // Adjust these two rules for positioning
+}
+.fourth{
+    top: 10%; // Adjust these two rules for positioning
+    left: 75%; // Adjust these two rules for positioning
+}
+.fifth{
+    top: 10%; // Adjust these two rules for positioning
+    left: 81%; // Adjust these two rules for positioning
+}
+
+.enemy-container {
+    position: absolute;
+    z-index: 9999;    
+    width: 3vw;
+    height: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.658);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.233);
+    cursor: pointer;
+
+    >* {
+        display: none;
+        background-color: rgba($color: white, $alpha: 1);
+        border-radius: 15px;
+    }
+
+    &:hover>* {
+        display: inherit;
+    }
+
+    .pop-div {
+        font-size: 13px;
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -80px;
+        width: 160px; // I can change this to whatever I want, but the margin-left must be negative half of that value.
+        text-align:start; 
+        background-color: lightgrey;    
+
+        > * {
+            padding: 0rem 0.5rem;
+        }
+
+        > .pop-title{
+            font-weight:bolder;
+            border-radius: 15px 15px 0 0;
+            background-color: white;
+            border-bottom: 1px solid rgb(151, 151, 151);
+        }
+
+        > .pop-content {
+            border-radius: 0px 0px 15px 15px;
+            :first-child{
+                color: green;
+
+            }
+            :last-child{
+                color: rgb(214, 139, 0);
+            }
+        }
+
+        > .pop-status{
+            border-radius: 0px 0px 15px 15px;
+        }
+    }
+}

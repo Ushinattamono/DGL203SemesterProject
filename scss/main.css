@@ -37,10 +37,6 @@ p {
   border-radius: none;
 }
 
-.landing {
-  overflow: hidden;
-}
-
 .landing-container {
   display: flex;
   flex-direction: column;
@@ -246,5 +242,9 @@ p {
 }
 .enemy-container .pop-div > .pop-status {
   border-radius: 0px 0px 15px 15px;
+}
+
+.landing {
+  overflow: hidden;
 }
 /*# sourceMappingURL=main.css.map */
