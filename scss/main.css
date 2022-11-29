@@ -221,8 +221,8 @@ p {
   position: absolute;
   bottom: 100%;
   left: 50%;
-  margin-left: -75px;
-  width: 150px;
+  margin-left: -80px;
+  width: 160px;
   text-align: start;
 }
 .enemy-container .pop-div > * {
