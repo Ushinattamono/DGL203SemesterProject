@@ -16,6 +16,10 @@
     }
 }
 
+.navbar-toggler {
+    width: 100%;
+}
+
 .card-body {
     padding: 0;
     border: none;
@@ -78,6 +82,7 @@
         border-bottom: 1px solid white;
     }
 
+    // Credit to this JS.fiddle: http://jsfiddle.net/6bjTQ/
     .overlay {
         width:100%;
         height:100%;
@@ -100,7 +105,6 @@
 
 
 .stage-container {
-
     .stage-list {
         display: flex;
         justify-content: space-around;
@@ -135,8 +139,7 @@
             radial-gradient(ellipse at top, $primary-color, transparent),
             radial-gradient(ellipse at bottom, $secondary-color, transparent);
 
-        h3,
-        h4 {
+        h3, h4 {
             text-align: center;
             margin: auto;
             border-bottom: 1px white solid;

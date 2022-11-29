@@ -24,6 +24,10 @@ p {
   position: relative;
 }
 
+.navbar-toggler {
+  width: 100%;
+}
+
 .card-body {
   padding: 0;
   border: none;
@@ -121,8 +125,7 @@ p {
   font-weight: 450;
   background: radial-gradient(ellipse at top, #efd29c, transparent), radial-gradient(ellipse at bottom, #a0793f, transparent);
 }
-.stage-container .stage-item h3,
-.stage-container .stage-item h4 {
+.stage-container .stage-item h3, .stage-container .stage-item h4 {
   text-align: center;
   margin: auto;
   border-bottom: 1px white solid;
