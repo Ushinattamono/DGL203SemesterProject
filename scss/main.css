@@ -33,10 +33,38 @@ p {
   border-radius: none;
 }
 
+.landing {
+  overflow: hidden;
+}
+
 .landing-container {
   display: flex;
   flex-direction: column;
   margin: auto;
+}
+.landing-container .w1 {
+  background: url("/images/banner/week1banner.png");
+  background-size: cover;
+}
+.landing-container .w2 {
+  background: url("/images/banner/week2banner.jpg");
+  background-size: cover;
+}
+.landing-container .w3 {
+  background: url("/images/banner/week4banner.jpg");
+  background-size: cover;
+}
+.landing-container .w4 {
+  background: url("/images/banner/week3banner.png");
+  background-size: cover;
+}
+.landing-container a {
+  height: 25vh;
+  transition: background 0.05s ease-in, color 0.05s ease-in, transform 0.05s ease-in-out, border 0.05s 0.1s ease-in-out;
+}
+.landing-container a:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 .landing-container h1 {
   position: absolute;
@@ -52,12 +80,6 @@ p {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-.landing-container .landing-img img {
-  -o-object-fit: fill;
-     object-fit: fill;
-  max-width: 100%;
-  max-height: 25vh;
 }
 
 .stage-container .stage-list {

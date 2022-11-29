@@ -25,11 +25,47 @@
     border-radius: none;
 }
 
+.landing{
+    overflow: hidden;
+}
 .landing-container {
     display: flex;
     flex-direction: column;
     margin: auto;
 
+    .w1{
+        background: url("/images/banner/week1banner.png");
+        background-size:cover;
+    }
+
+    .w2 {
+        background: url("/images/banner/week2banner.jpg");
+        background-size:cover;
+    }
+
+    .w3 {
+        background: url("/images/banner/week4banner.jpg");
+        background-size:cover;
+    }
+
+    .w4 {
+        background: url("/images/banner/week3banner.png");
+        background-size:cover;
+    }
+
+    a {
+        height: 25vh;
+        transition: background .05s ease-in,
+                color .05s ease-in,
+                transform .05s ease-in-out,
+                border .05s .1s ease-in-out;         
+
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+    }
+    }
+    
     h1 {
         position: absolute;
         opacity: 80%;
@@ -46,12 +82,20 @@
         display: flex;
         justify-content: center;
         
-        img{
-            object-fit: fill;
-            max-width: 100%;
-            max-height: 25vh;            
-        }        
-    }
+        // img{
+        //     object-fit: fill;
+        //     max-width: 100%;
+        //     max-height: 25vh; 
+        //     transition: background .05s ease-in,
+        //         color .05s ease-in,
+        //         transform .05s ease-in-out,
+        //         border .05s .1s ease-in-out;         
+        //         &:hover{
+        //             cursor: pointer;
+        //             transform: scale(1.1);
+        //         }
+        // }        
+    }    
 }
 
 
